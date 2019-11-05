@@ -1,0 +1,39 @@
+.mod_external_content {
+    background-image: url(../../../images/film-1668918_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow-y: auto;
+    position:relative;
+}
+
+.mod_external_content_scroller {
+    width: 100%;
+    height: 10em;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.mod_external_content_overlay {
+    background-color:rgba(255,255,255,0.7);
+    color:#333;
+    width: 66%;
+    margin: 1em auto;
+    padding: 1em;
+    font-size: 85%;
+}
+
+.mod_external_content_confirm {
+    margin-top:25px;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.mod_external_content_video_layer {
+    display:none;
+    position:relative;
+}
+
+a.mod_external_content_videolink {
+    color: #000
+}

@@ -1,0 +1,32 @@
+.mod_external_content {
+    background-image: url(../../../images/planet-581239_640.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow-y: auto;
+    position:relative;
+}
+
+.mod_external_content_overlay {
+    background-color:rgba(255,255,255,0.7);
+    color:#333;
+    width: 66%;
+    margin: 1em auto;
+    padding: 1em;
+    font-size: 85%;
+}
+
+.mod_external_content_confirm {
+    margin-top:15px;
+    text-align:center;
+}
+
+.mod_external_content_maplogo {
+    background-image: url(../../../images/google-maps.png);
+    width:100px;
+    height:100px;
+    background-size: 100px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
